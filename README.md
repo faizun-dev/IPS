@@ -5,11 +5,15 @@ This project is a simple IPS that analyzes network traffic from PCAP files to id
 **Prevention**
 
 Detects and blocks repeated ICMP ping attempts.
+
 Prevents SYN floods and half-open TCP connections.
+
 Identifies scan patterns (NULL, FIN, SYN scans, repeated port attempts).
+
 HTTP Payload Inspection
 
 **Limitation**
 
 Works on PCAP files (offline) instead of real-time traffic.
+
 Does not handle advanced evasion techniques.
